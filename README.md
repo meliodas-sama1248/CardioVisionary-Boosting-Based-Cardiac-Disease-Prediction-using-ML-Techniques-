@@ -1,0 +1,2 @@
+# CardioVisionary-Boosting-Based-Cardiac-Disease-Prediction-using-ML-Techniques-
+CardioVisionary leverages machine learning, particularly Gradient Boosting, to predict heart disease severity (num: 0-4). Using clinical data, models like Logistic Regression, SVM, and Random Forest were evaluated on accuracy and other metrics. The best-performing Gradient Boosting model was deployed in a web app to assist healthcare decisions.
