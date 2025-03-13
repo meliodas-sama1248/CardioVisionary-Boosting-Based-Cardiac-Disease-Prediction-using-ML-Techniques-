@@ -1,26 +1,51 @@
-**CardioVisionary: Boosting Based Cardiac Disease Prediction using ML Techniques** 
+❤️ CardioVisionary: Boosting-Based Cardiac Disease Prediction using ML Techniques
+CardioVisionary is a machine learning-based heart disease prediction system that helps in early diagnosis and preventive care. Powered by Gradient Boosting and other robust ML models, this project uses health parameters like age, cholesterol, and blood pressure to predict heart disease risk with high accuracy.
 
-**Project Overview**
+🩺 Project Overview
+This application predicts the likelihood and severity of heart disease using a set of medical and personal attributes. It is built using a Flask backend and a clean, responsive frontend (HTML, CSS, JavaScript). The system leverages multiple machine learning algorithms, with Gradient Boosting delivering the best results — achieving 98.37% accuracy.
 
-This project focuses on predicting the presence of heart disease using machine learning. It utilizes the Heart Disease UCI dataset, which includes various health attributes, such as age, cholesterol levels, and blood pressure, to predict whether an individual is at risk of heart disease. The application leverages several machine learning models, including Logistic Regression, Gradient Boosting, Random Forest, and Support Vector Machine (SVM), with the goal of providing an easy-to-use interface for early diagnosis and preventive healthcare.
+📌 Features
+Predicts heart disease severity (Scale: 0-4)
+User-friendly web interface
+Personalized precautionary suggestions
+High accuracy with Gradient Boosting
+Flask-powered backend, responsive modern frontend
+📊 Dataset
+Source: UCI Machine Learning Repository
+Records: 920 entries
+Attributes: 16 features including:
+Age, Sex
+Cholesterol, Blood Pressure
+Chest Pain Type, Fasting Blood Sugar, etc.
+🧠 Machine Learning Models
+The following ML models were trained and evaluated:
 
-**Features**
+Logistic Regression
+Random Forest
+Support Vector Machine (SVM)
+Gradient Boosting (Best Accuracy: 98.37%)
+Model Evaluation Metrics:
 
-The heart disease prediction system includes several key features. It allows users to input personal and medical data through a web interface and provides a prediction of heart disease severity on a scale of **0-4**. The system also suggests precautionary measures based on the prediction. The application is built using Flask for the backend, with a clean and responsive front-end created using HTML, CSS, and JavaScript. The best-performing machine learning model is Gradient Boosting, which offers an accuracy of **98.37%**.
-
-**Dataset**
-
-The dataset used for this project is from the UCI Machine Learning Repository and contains 920 records, each with 16 attributes. These attributes include demographic information (such as age and sex), clinical data (such as cholesterol levels and blood pressure), and lifestyle factors. This dataset is used to train and test the machine learning models, enabling the prediction of heart disease risk based on the provided attributes.
-
-**Installation**
-
-To run the project, clone this repository and install the necessary dependencies like Flask, scikit-learn, and others. After installation, you can run the Flask application, which will be accessible on your local server. Detailed instructions are provided for easy setup, allowing you to start the project with minimal configuration.
-
-**Web Interface**
-
-The web application provides a user-friendly interface where users can enter their health data. Upon submission, the system predicts the likelihood of heart disease and provides the corresponding severity level. Additionally, it offers personalized health advice and precautions based on the prediction. The interface is built using modern web technologies, ensuring a smooth and intuitive user experience.
-
-**Model Evaluation**
-
-Several machine learning models were trained and evaluated for this project. The models include Logistic Regression, Random Forest, SVM, and Gradient Boosting. The Gradient Boosting model achieved the highest accuracy (98.37%), followed by Random Forest (97.28%). These models were evaluated using metrics such as accuracy, F1-score, and ROC curves, with Gradient Boosting emerging as the best model for predicting heart disease.
-
+Accuracy
+F1-Score
+ROC Curve
+💻 Web Interface
+Input health parameters via form fields
+Click Predict to get results
+System returns severity level and health advice
+Simple, responsive, and mobile-friendly UI
+📈 Model Accuracy
+Model	Accuracy
+Gradient Boosting	98.37%
+Random Forest	97.28%
+SVM	95.71%
+Logistic Regression	94.80%
+🛠️ Tech Stack
+Python (Flask)
+Machine Learning (Scikit-learn, Pandas, etc.)
+HTML & CSS
+JavaScript (for frontend interactivity)
+🙌 Acknowledgement
+UCI Machine Learning Repository for dataset
+Scikit-learn, Flask, and the Python ML ecosystem
+Made with ❤️ to support preventive healthcare.
