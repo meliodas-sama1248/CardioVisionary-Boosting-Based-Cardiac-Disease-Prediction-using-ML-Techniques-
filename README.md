@@ -82,3 +82,8 @@ The following ML models were trained and evaluated:
 ---
 
 *Made with ❤ to support preventive healthcare.*
+
+## 📜 License
+This project is licensed under the [MIT License](./LICENSE).
+
+----
